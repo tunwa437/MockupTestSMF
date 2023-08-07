@@ -14,7 +14,7 @@ namespace MockupTestSMF
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
-                name: "CustomAPIRoute",
+                name: "SendCommandToND",
                 url: "",
                 defaults: new { controller = "SMF", action = "SendCommandToND" }
             );
