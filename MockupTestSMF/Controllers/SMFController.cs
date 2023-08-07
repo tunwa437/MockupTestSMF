@@ -12,7 +12,7 @@ namespace MockupTestSMF.Controllers
 {
     public class SMFController : ApiController
     {
-        [System.Web.Http.HttpPost]
+        [System.Web.Http.HttpGet]
         public HttpResponseMessage SendCommandToND()
         {
             HttpResponseMessage response = new HttpResponseMessage(HttpStatusCode.OK);
